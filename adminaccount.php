@@ -70,7 +70,7 @@ include("dbconnection.php");
                 <div class="icon"> <i class="zmdi zmdi-money col-green"></i> </div>
                 <div class="content">
                     <div class="text">Hospital Earning</div>
-                    <div class="number">₹
+                    <div class="number">$
                         <?php 
               $sql = "SELECT sum(bill_amount) as total  FROM `billing_records` ";
               $qsql = mysqli_query($con,$sql);
